@@ -1,0 +1,22 @@
+package first;
+
+public class ex3_var {
+	public static void main(String[] args){
+		int myint = 5;
+		System.out.println(myint);
+		
+		myint = 10 + 70;
+		System.out.println(myint);
+		
+		myint = 10 + (5 + 2) * 10;
+		System.out.println(myint);
+		
+		int myFirstNumber = 5;
+		int mySecondNumber = 10;
+		int myThirdNumber = 70;
+		
+		myint = myFirstNumber + mySecondNumber + myThirdNumber;
+		System.out.println(myint);
+		
+	}
+}
